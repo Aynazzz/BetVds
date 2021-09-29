@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+@import './variables';
+.container {
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+@import 'blocks/_promo';
+@import 'blocks/advantages';
+@import 'blocks/consultation';
+@import 'blocks/cost';
+@import 'blocks/server';
+@import 'blocks/questions';
+@import 'blocks/footer';
+
+@import 'blocks/modal';
+@import 'blocks/_carousel';

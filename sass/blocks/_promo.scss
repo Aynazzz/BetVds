@@ -1,0 +1,121 @@
+.promo{
+    min-height: 650px;
+    background: url(../img/bg.jpg) center (center/cover) no-repeat;
+    padding-top: 31px;
+    padding-bottom: 180px;
+    &__title {
+        text-align: center;
+        color: #fff;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 59px;
+        margin-top: 170px;
+    }
+    &__header {
+        hr {
+            background-color: rgb(43, 41, 41);
+            margin-top: 15px;
+            margin-bottom: 70px;
+        }
+    }
+    &__icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 55px;
+    }
+    &__icon {
+        margin-right: 76px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 55px;
+        max-width: 212px;
+        p {
+            color: #fff;
+            font-family: Montserrat;
+            font-weight: 700;
+            font-size: 20px;
+        }
+    }
+    &__icon:last-child{
+        margin-right: 0;
+    }
+    &__text {
+        color: #fff;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+        line-height: 30px;
+        margin: 0px 60px 100px 60px;
+        span{
+            color: $main-color;
+            font-weight: 700;
+        }
+    }
+    &__btn{
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 280px;
+        height: 70px;
+        background: $main-color;
+        border: none;
+        box-sizing: border-box;
+        transition: .5s;
+        span {
+            font-weight: 700;
+            font-size: 26px;
+            color: #fff;
+            padding: 17px;
+        }
+        svg {
+            margin-top: 10px;
+    }
+    
+    
+}
+}
+#rew:hover {
+    border: 0.5px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px 2px #FF6711;
+}
+.logo {
+    display: block;
+}
+.subhead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini-menu{
+    display: none;
+}
+.nav {
+    display: flex;
+    li {
+        list-style-type: none;
+    }
+    a {
+        color: #fff;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        margin-right: 40px;
+        text-decoration: none;
+        transition: .3s;
+    }
+    a:hover {
+        padding: 15px 15px;
+        color: $main-color;
+        border: 1px solid $main-color ;
+        font-weight: 400;
+   
+        box-shadow: 0px 0px 5px 1px $main-color inset,
+			0px 1px 10px $main-color,
+			0px 0px 5px $main-color;
+    }  
+}

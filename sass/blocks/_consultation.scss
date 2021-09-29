@@ -1,0 +1,70 @@
+.consultation{  
+    background: #262D36;
+    &__wrapper {
+        padding-top: 40px;
+        padding-bottom: 95px;
+        z-index: 1;
+    }
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-row-gap: 7.5em;
+        margin-top: 40px;
+        grid-column-gap: 60px;
+    }
+
+    &__item {
+       text-align: center;
+      img {
+        display: inline-block;
+        border-radius: 50%;
+        border: 2px solid #FE9E45;
+        box-sizing: border-box;
+        padding: 10px;
+      }
+    }
+    &__title {
+        margin-bottom: 80px;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 49px;
+        color: #FE9E45;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #765B41;
+        span {
+            color:#fff;
+        }
+    }
+    &__subtitle {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color:#FE9E45;
+        border-bottom: 2px solid #765B41;
+        padding-bottom: 5px;
+        margin-bottom: 80px;
+        
+    }
+    &__text {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 70px;
+        span {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 29px;
+            color: #fff;
+        }
+    }
+    &__text-item{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color:#FE9E45;
+    }
+
+}
+svg {
+    position: relative;
+    z-index: 0;
+}

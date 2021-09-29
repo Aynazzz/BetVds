@@ -1,0 +1,60 @@
+.footer {
+    padding-top: 20px;
+    background: #262D36;
+    &__title {
+        text-align: center;
+        color: #481C03;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 49px;
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: $gray-color;
+        text-align: center;
+    }
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5em;
+        box-sizing: border-box;
+        span {
+            display: flex;
+            align-items: center;
+            color: #fff;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        img {
+            
+        }
+    }
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        background: $main-color;
+        background-repeat: no-repeat; 
+        width: 200px;
+        height: 50px;
+        border: none;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        span {
+            font-weight: 500;
+            font-size: 20px;
+            color: #fff;
+            line-height: 32px;
+            margin-left: 15px;
+        }
+        svg {
+            transform:translate(0px,5px);
+        }
+    }
+}
+.question_bg{
+    background: #f0f0f0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

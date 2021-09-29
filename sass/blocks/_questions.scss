@@ -1,0 +1,25 @@
+.questions {
+    padding: 40px 0 80px;
+    &__title {
+        color: $gray-color;
+        text-align: center;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 49px;
+        margin-bottom: 15px;
+    }
+    &__text {
+        color: #481C03;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 29px;
+        margin-top: 40px;
+        p {
+            color: $gray-color;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            margin-left: 60px;
+        }
+    }
+}
